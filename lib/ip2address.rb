@@ -1,5 +1,2 @@
-require "ip2address/version"
-
-module Ip2address
-  # Your code goes here...
-end
+require File.expand_path("../ip2address/version", __FILE__)
+require File.expand_path("../ip2address/core", __FILE__)
