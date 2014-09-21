@@ -1,3 +1,6 @@
+require "faraday"
+require "faraday_middleware"
+
 module Ip2address
   class Core
     IP_SEARCH_URL = "http://ip.taobao.com/service/getIpInfo.php"
