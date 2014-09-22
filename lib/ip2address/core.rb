@@ -5,12 +5,7 @@ module Ip2address
   class Core
     IP_SEARCH_URL = "http://ip.taobao.com/service/getIpInfo.php"
 
-    attr_accessor :ip
-    attr_accessor :country
-    attr_accessor :area
-    attr_accessor :region
-    attr_accessor :city
-    attr_accessor :isp
+    attr_accessor :ip, :country, :area, :region, :city, :isp
 
     def initialize(ip)
       @ip = ip
