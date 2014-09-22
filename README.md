@@ -1,14 +1,12 @@
 # Ip2address
 
-TODO: Write a gem description
+    instance = Ip2address::Core.new(ip)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'ip2address'
-```
+    gem 'ip2address'
 
 And then execute:
 
@@ -20,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+use taobao ip api to get info
+( http://ip.taobao.com/ )
 
 ## Contributing
 
